@@ -3,7 +3,11 @@
 - Tem como objetivo calcular o valor em R$, que você gastará de combustível em um determinado percurso.
 
 ## Screenshots
-
+<img src="https://github.com/user-attachments/assets/fda771a3-fb06-4f9c-95cf-1bceafe6425f" width=260/>
+<img src="https://github.com/user-attachments/assets/422a5c30-f627-4db0-87ce-9706134866cc" width=260/>
+<img src="https://github.com/user-attachments/assets/46d3331b-7afe-4151-a62d-c179ec1fb1ab" width=260/>
+<img src="https://github.com/user-attachments/assets/58c6fa29-52c5-495d-a0a9-93c9955c6772" width=260/>
+<img src="https://github.com/user-attachments/assets/249b1a93-ff78-4fd1-9e61-124520e71052" width=260/>
 
 
 ## Tecnologias

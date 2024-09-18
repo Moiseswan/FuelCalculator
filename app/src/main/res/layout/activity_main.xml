@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/primary_200"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/vg_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/capa"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_margin="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/capa" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Iniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="24dp"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:text="Calculadora de gasto de combustível"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/vg_header"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/intro_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:textColor="@color/white"
+        android:text="Não tem ideia de quanto vai gastar de gasolina na sua viagem? Então está no lugar certo!"
+        app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

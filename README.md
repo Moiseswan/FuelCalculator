@@ -1,5 +1,5 @@
 ## Calculadora de Combustível 
-- Projeto APP Android Nativo, na linguagem de progamação Kotlin.
+- Projeto APP Android Nativo, na linguagem de programação Kotlin.
 - Tem como objetivo calcular o valor em R$, que você gastará de combustível em um determinado percurso.
 
 ## Screenshots
@@ -11,7 +11,7 @@
 
 
 ## Tecnologias
-Activty - Intent - Snackbar - ViewGroup - LinearLayout - ImageView - TextView
+Activity - Intent - Snackbar - ViewGroup - LinearLayout - ImageView - TextView
 TextInputEditText - Button - Drawable.
 
 
